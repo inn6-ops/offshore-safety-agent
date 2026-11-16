@@ -1,0 +1,19 @@
+
+EQUINOR OFFSHORE OPERATIONS & ZERO-HARM SAFETY MANUAL (DEMO DATASET)
+
+SECTION 1: HIGH-PRESSURE HYDRAULIC PUMP (UNIT P-104)
+- Normal Operating Pressure: 210 to 250 bar (3,045 to 3,625 PSI).
+- Maximum Allowable Temperature: 85 degrees Celsius (358.15 K).
+- Lockout/Tagout Maintenance Rule: Before opening any housing or valve, internal pressure must be bled down strictly below 2.0 bar (29 PSI), and surface temperature must be below 40 degrees Celsius.
+- Flow Rate Warning: If fluid flow drops below 15 liters/second while pressure exceeds 200 bar, emergency shutdown is mandatory.
+- Required PPE: Heat-resistant gloves (EN 407), full face shield, flame-retardant coveralls, and dual ear protection (ambient noise 98 dB).
+
+SECTION 2: OFFSHORE WIND TURBINE NACELLE (UNIT WT-09 - HYWIND)
+- Maximum Wind Speed for Exterior Access: 12.0 m/s (approx. 23.3 knots).
+- Maximum Wind Speed for Internal Maintenance: 18.0 m/s (approx. 35.0 knots).
+- Mechanical Rule: Main rotor lock pin must be physically engaged and verified before any technician enters the hub.
+- Required PPE: Full-body fall arrest harness, twin energy-absorbing lanyards, and offshore survival suit during helicopter transfer.
+
+SECTION 3: SUBSEA PIPELINE PRESSURE TEST (LINE S-42)
+- Hydrotest Pressure Limit: 1.25 times the design pressure of 160 bar (Maximum = 200 bar).
+- Pressure Drop Tolerance: Over a 4-hour test window, pressure drop must not exceed 0.5% of test pressure (1.0 bar). Any drop above 1.0 bar indicates a micro-leak and requires immediate abort.
