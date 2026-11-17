@@ -4,11 +4,11 @@ from crewai import Agent, Task, Crew, Process
 # AQ.
 os.environ["GEMINI_API_KEY"] = "GEMINI_API_KEY"
 
-# Читаем файл с инструкциями
+
 with open("safety_manual.txt", "r", encoding="utf-8") as file:
     manual_text = file.read()
 
-# Агент 1: Планировщик работ
+
 planner_agent = Agent(
     role="Offshore Maintenance Planner",
     goal="Draft a clear step-by-step maintenance checklist based strictly on the company safety manual.",
@@ -17,7 +17,7 @@ planner_agent = Agent(
     verbose=True
 )
 
-# Агент 2: Аудитор безопасности и физики
+
 auditor_agent = Agent(
     role="Zero-Harm Safety & Physics Auditor",
     goal="Verify that all pressure, temperature, wind limits, and safety gear match the manual.",
@@ -26,7 +26,7 @@ auditor_agent = Agent(
     verbose=True
 )
 
-# Три тестовых сценария для проверки
+
 test_scenarios = [
     "Scenario 1 (Pump P-104): Technician wants to open a valve. Current readings: Pressure = 290 PSI, Temperature = 38°C.",
     "Scenario 2 (Wind Turbine WT-09): Technician wants to do exterior blade inspection. Wind speed is 26 knots.",
